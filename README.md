@@ -25,11 +25,10 @@ This is my **first public security project**, created as a proof-of-concept. It 
 ```text
 chrome-abe-decryption-bof/
 ├── bof/              # BOF Visual Studio solution & project  
-│   ├── chrome_appbound.sln  
-│   ├── chrome_decrypt.cpp  
-│   └── …  
-├── decryptor/        # Standalone decryptor solution & code  
-│   ├── decryptor.sln  
+│   ├── ChromeABEDecryption-BOF.sln  
+│   ├── bof.cpp  
+│   └── … other project files
+├── decryptor/        # Standalone decryptor solution & code    
 │   ├── decryptor.cpp  
 │   └── sqlite3.c  
 ├── docs/             # Setup guides, architecture & extended docs  
@@ -54,9 +53,9 @@ chrome-abe-decryption-bof/
 ### 1. BOF
 
 1. Follow the BOF template setup in `docs/setup-bof-vs.md` (based on [chryzsh’s guide](https://github.com/chryzsh/awesome-bof/blob/main/how-to/setup-visual-studio-bof.md)).  
-2. Open `bof/chrome_appbound.sln` in Visual Studio.  
+2. Open `bof/ChromeABEDecryption-BOF.sln` in Visual Studio.  
 3. Select **x64** and **Release**, then **Build**.  
-4. Locate the generated `.o` in your VS output folder (e.g. `bof/x64/Release/chrome_appbound.o`).
+4. Locate the generated `.o` in your VS source output folder (e.g. `C:\Users\<youruser>\source\repos\x64\Release`).
 
 ### 2. Decryptor
 
@@ -73,7 +72,7 @@ This produces `decryptor.exe` in the same folder.
 
 ## 🚀 Usage
 
-### BOF (in-memory)
+### BOF (in-memory on target)
 
 1. **Spawn** a Beacon session in Cobalt Strike.  
 2. **Inject** into the **parent** `chrome.exe` process.  
@@ -85,9 +84,9 @@ This produces `decryptor.exe` in the same folder.
 
 > **Note:** Chrome’s parent vs. child processes—always target the original chrome.exe.
 
-### Decryptor (on-disk)
+### Decryptor (on-attacker-disk / offline)
 
-1. **Kill** Chrome to safely copy the `Cookies`, `Login Data`, and `Web Data` files.  
+1. **Kill** Chrome on victim machine to safely copy the `Cookies`, `Login Data`, and `Web Data` files.  
 2. Run:
    ```powershell
    decryptor.exe --key <hex32-masterkey> `
