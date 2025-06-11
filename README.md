@@ -79,7 +79,7 @@ This produces `decryptor.exe` in the same folder.
 2. **Inject** into the **parent** `chrome.exe` process.  
 3. Run:
    ```
-   inline-execute path	o\chrome_appbound.o
+   inline-execute bof.x64.o
    ```
 4. The BOF will dump the **masterkey** to your Beacon console. Save it safely.
 
