@@ -11,7 +11,7 @@ _A Beacon Object File for decrypting Chrome App-Bound Encryption masterkeys in-m
 This is my **first public security project**, created as a proof-of-concept. It packages the work of [xaitax’s Chrome App-Bound Encryption Decryption](https://github.com/xaitax/Chrome-App-Bound-Encryption-Decryption/tree/main) into:
 
 1. **A BOF** (`bof/`) for in-memory decryption via Cobalt Strike, preserving OPSEC  
-2. **A standalone decryptor EXE** (`decryptor/`) for on-disk key & blob processing  
+2. **A standalone decryptor EXE** (`decryptor/`) for offline key & blob processing  
 
 > **Caveats**  
 > - **Profiles not supported** — the BOF always looks in the hard-coded path for `Local State`. You can change the lookup path in `bof/chrome_decrypt.cpp` for your profile folder.  
