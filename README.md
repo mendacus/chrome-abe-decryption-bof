@@ -31,7 +31,6 @@ chrome-abe-decryption-bof/
 │   ├── decryptor.cpp  
 │   └── sqlite3.c  
 ├── docs/             # Setup guides, architecture & extended docs  
-├── examples/         # Sample masterkeys & encrypted blobs  
 ├── .gitignore        # Ignore build outputs & VS user files  
 ├── LICENSE           # MIT License  
 └── README.md         # ← you are here  
