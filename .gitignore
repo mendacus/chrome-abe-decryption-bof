@@ -1,0 +1,15 @@
+# Visual Studio / C++ build outputs
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.pdb
+Build/
+x64/
+*/Release/
+*/Debug/
+
+# User-specific files
+*.user
+*.suo

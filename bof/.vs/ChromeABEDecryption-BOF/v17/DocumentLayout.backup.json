@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\localuser\\source\\repos\\ChromeABEDecryption-BOF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02916BD5-8B2B-4962-828D-AFAC9918D6C4}|ChromeABEDecryption-BOF.vcxproj|C:\\Users\\localuser\\source\\repos\\ChromeABEDecryption-BOF\\bof.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02916BD5-8B2B-4962-828D-AFAC9918D6C4}|ChromeABEDecryption-BOF.vcxproj|solutionrelative:bof.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bof.cpp",
+              "DocumentMoniker": "C:\\Users\\localuser\\source\\repos\\ChromeABEDecryption-BOF\\bof.cpp",
+              "RelativeDocumentMoniker": "bof.cpp",
+              "ToolTip": "C:\\Users\\localuser\\source\\repos\\ChromeABEDecryption-BOF\\bof.cpp*",
+              "RelativeToolTip": "bof.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-11T13:40:33.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

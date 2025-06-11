@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChromeABEDecryption-BOF", "ChromeABEDecryption-BOF.vcxproj", "{02916BD5-8B2B-4962-828D-AFAC9918D6C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		UnitTest|x64 = UnitTest|x64
+		UnitTest|x86 = UnitTest|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.Debug|x64.ActiveCfg = Debug|x64
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.Debug|x64.Build.0 = Debug|x64
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.Debug|x86.Build.0 = Debug|Win32
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.Release|x64.ActiveCfg = Release|x64
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.Release|x64.Build.0 = Release|x64
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.Release|x86.ActiveCfg = Release|Win32
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.Release|x86.Build.0 = Release|Win32
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.UnitTest|x64.ActiveCfg = UnitTest|x64
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.UnitTest|x64.Build.0 = UnitTest|x64
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.UnitTest|x86.ActiveCfg = UnitTest|Win32
+		{02916BD5-8B2B-4962-828D-AFAC9918D6C4}.UnitTest|x86.Build.0 = UnitTest|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B2A34ED-9D5E-4829-B937-40873EDCBC17}
+	EndGlobalSection
+EndGlobal
