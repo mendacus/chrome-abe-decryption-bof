@@ -3,7 +3,6 @@
 _A Beacon Object File for decrypting Chrome App-Bound Encryption masterkeys in-memory via Cobalt Strike_
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Build Status](https://github.com/yourusername/chrome-abe-decryption-bof/actions/workflows/build.yml/badge.svg)](https://github.com/yourusername/chrome-abe-decryption-bof/actions)
 
 ---
 
