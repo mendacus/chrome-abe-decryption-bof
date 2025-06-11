@@ -108,12 +108,10 @@ This produces `decryptor.exe` in the same folder.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](.github/CONTRIBUTING.md) for guidelines on:
+Contributions are welcome! Let me know if you:
 
-- Issue reporting  
-- Pull requests  
-- Code style  
-
+- Have an issue  
+- Have pull requests  
 ---
 
 ## 📄 License
