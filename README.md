@@ -115,3 +115,7 @@ Contributions are welcome! Let me know if you:
 ## 📄 License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for full text.
+
+---
+## Please Read
+This is an educational project. This is not to be used for malicious nature. This is an educational resource to transform another project into a BOF format.
